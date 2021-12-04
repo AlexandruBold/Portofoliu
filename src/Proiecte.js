@@ -14,9 +14,10 @@ export default function Proiecte(props) {
       <div className="btn" id="left">
         <button
           onClick={() => {
-            if (center == "Magazin") setCenter("Calculator");
+            if (center == "Magazin") setCenter("Portofoliu");
             if (center == "Xsi0") setCenter("Magazin");
             if (center == "Calculator") setCenter("Xsi0");
+            if (center == "Portofoliu") setCenter("Calculator");
           }}
         >
           ◄
@@ -36,7 +37,8 @@ export default function Proiecte(props) {
           onClick={() => {
             if (center == "Magazin") setCenter("Xsi0");
             if (center == "Xsi0") setCenter("Calculator");
-            if (center == "Calculator") setCenter("Magazin");
+            if (center == "Calculator") setCenter("Portofoliu");
+            if (center == "Portofoliu") setCenter("Magazin");
           }}
         >
           ►

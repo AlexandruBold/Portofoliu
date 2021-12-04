@@ -49,8 +49,8 @@ function App() {
   let proiect4 = {
     nume: "Portofoliu",
     imagine: portofoliu,
-    tecnologii: ["React", "React-Router", ", ", ", ", "Html", ", ", "Css"],
-    pages: "https://alexandrubold.github.io/Portofoliu/",
+    tecnologii: ["React", ", ", "React-Router", ", ", "Html", ", ", "Css"],
+
     repository: "https://github.com/AlexandruBold/Portofoliu",
   };
   let projects = [proiect1, proiect2, proiect3, proiect4];
