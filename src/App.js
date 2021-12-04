@@ -53,7 +53,7 @@ function App() {
     pages: "https://alexandrubold.github.io/Portofoliu/",
     repository: "https://github.com/AlexandruBold/Portofoliu",
   };
-  let projects = [proiect1, proiect2, proiect3];
+  let projects = [proiect1, proiect2, proiect3, proiect4];
 
   return (
     <div className="App">
