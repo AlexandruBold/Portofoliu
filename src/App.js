@@ -50,7 +50,7 @@ function App() {
     nume: "Portofoliu",
     imagine: portofoliu,
     tecnologii: ["React", "React-Router", ", ", ", ", "Html", ", ", "Css"],
-    pages: "https://alexandrubold.github.io/portofoliu/",
+    pages: "https://alexandrubold.github.io/Portofoliu/",
     repository: "https://github.com/AlexandruBold/Portofoliu",
   };
   let projects = [proiect1, proiect2, proiect3];
