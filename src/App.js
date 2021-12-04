@@ -15,7 +15,7 @@ function App() {
         <div className="nume">
           <div>
             <h1>Alexandru Bold</h1>
-            <p>Front-end developer</p>
+            <p>Frontend Developer</p>
           </div>
         </div>
       </div>
