@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portofoliu/static/css/main.2ab64618.chunk.css",
+    "main.js": "/Portofoliu/static/js/main.def4e9fe.chunk.js",
+    "main.js.map": "/Portofoliu/static/js/main.def4e9fe.chunk.js.map",
+    "runtime-main.js": "/Portofoliu/static/js/runtime-main.ae1ffe27.js",
+    "runtime-main.js.map": "/Portofoliu/static/js/runtime-main.ae1ffe27.js.map",
+    "static/js/2.35ce9165.chunk.js": "/Portofoliu/static/js/2.35ce9165.chunk.js",
+    "static/js/2.35ce9165.chunk.js.map": "/Portofoliu/static/js/2.35ce9165.chunk.js.map",
+    "index.html": "/Portofoliu/index.html",
+    "static/css/main.2ab64618.chunk.css.map": "/Portofoliu/static/css/main.2ab64618.chunk.css.map",
+    "static/js/2.35ce9165.chunk.js.LICENSE.txt": "/Portofoliu/static/js/2.35ce9165.chunk.js.LICENSE.txt",
+    "static/media/calculator.415ede65.png": "/Portofoliu/static/media/calculator.415ede65.png",
+    "static/media/magazin.9db115cb.png": "/Portofoliu/static/media/magazin.9db115cb.png",
+    "static/media/x-si-0.dd69201a.png": "/Portofoliu/static/media/x-si-0.dd69201a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae1ffe27.js",
+    "static/js/2.35ce9165.chunk.js",
+    "static/css/main.2ab64618.chunk.css",
+    "static/js/main.def4e9fe.chunk.js"
+  ]
+}
