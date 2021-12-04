@@ -158,3 +158,9 @@
   justify-content: center;
   align-items: center;
 }
+.contact a {
+  color: white;
+}
+.contact a:visited {
+  color: white;
+}
