@@ -7,7 +7,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/alexandru-bold-a58b74227/"
             target="_blank"
           >
-            Linkedin
+            LinkedIn
           </a>
         </li>
       </ul>
