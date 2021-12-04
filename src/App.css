@@ -1,38 +1,160 @@
-.App {
-  text-align: center;
+* {
+  font-family: sans-serif;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.proiecte {
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  background-color: #000015;
   align-items: center;
+}
+.btn {
+  display: grid;
+  align-items: center;
+}
+#left {
+  justify-items: right;
+}
+#right {
+  justify-items: left;
+}
+.btn p {
+  font-size: 2em;
+}
+.main {
+  height: 80%;
+  display: grid;
+  grid-template-rows: 6fr 1fr;
+  justify-items: center;
+  border: 2px solid white;
+}
+.img-box {
+  width: 100%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+.main button {
+  background-color: #000015;
+  border: 2px solid white;
+  color: white;
+  font-size: 1.5em;
+  padding: 1vh;
+}
+.main button:hover {
+  background-color: white;
+  color: #000015;
+}
+.btn-box {
+  display: flex;
+  align-items: center;
+}
+.imagine {
+  height: 80%;
+  width: 80%;
+  border: 2px solid white;
+}
+
+.nav-bar {
+  height: 10vh;
+  display: flex;
+  background-color: #000015;
+  justify-content: right;
+  border-bottom: 2px solid white;
+}
+.divs {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5em;
+  list-style: none;
+}
+.divs li a {
+  height: 100%;
+  display: block;
+}
+
+.divs li {
+  height: 100%;
+}
+
+.divs a:link {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vh;
+}
+.divs a:visited {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.home {
+  background-color: #000015;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nume {
+  padding-top: 3vw;
+  height: 100%;
+  grid-row: 2;
+  display: grid;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+}
+.nume p {
+  padding-bottom: 0;
+}
+.divs a:hover {
+  color: #000015;
+  background-color: white;
+}
+
+.btn button {
+  background-color: #000015;
+  border: none;
+  color: white;
+  font-size: 2em;
+  padding: 1vh;
+}
+
+.contact {
+  background-color: #000015;
+  color: white;
+  height: 90vh;
+}
+.project-display {
+  height: 90vh;
+  background-color: #000015;
+}
+
+.detalii {
+  color: white;
+  display: block;
+  width: 80%;
+
+  font-size: 1.2em;
+}
+
+.project-details {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 2fr;
+  justify-items: center;
+  border: 2px solid white;
+  border-top: none;
+  overflow: auto;
+}
+
+.img-box2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

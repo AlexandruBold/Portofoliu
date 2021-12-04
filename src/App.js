@@ -1,23 +1,64 @@
-import logo from './logo.svg';
-import './App.css';
-
+import calculator from "./images/calculator.png";
+import Proiect from "./Proiect";
+import magazin from "./images/magazin.png";
+import Xsi0 from "./images/x-si-0.png";
+import { Route, Routes } from "react-router";
+import Contact from "./Contact";
+import Proiecte from "./Proiecte";
+import "./App.css";
+import Nav from "./Nav";
 function App() {
+  function Home() {
+    return (
+      <div className="home">
+        <div className="nume">
+          <div>
+            <h1>Alexandru Bold</h1>
+            <p>Front-end developer</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  let proiect1 = {
+    nume: "Magazin",
+    imagine: magazin,
+    tecnologii: ["React", ", ", "React-Router", ", ", "Html", ", ", "Css"],
+    pages: "https://alexandrubold.github.io/magazin/",
+    repository: "https://github.com/AlexandruBold/magazin",
+  };
+
+  let proiect2 = {
+    nume: "Xsi0",
+    imagine: Xsi0,
+    tecnologii: ["React", ", ", "Html", ", ", "Css"],
+    pages: "https://alexandrubold.github.io/x-si-0/",
+    repository: "https://github.com/AlexandruBold/x-si-0",
+  };
+
+  let proiect3 = {
+    nume: "Calculator",
+    imagine: calculator,
+    tecnologii: ["React", ", ", "Html", ", ", "Css"],
+    pages: "https://alexandrubold.github.io/calculator/",
+    repository: "https://github.com/AlexandruBold/calculator",
+  };
+
+  let projects = [proiect1, proiect2, proiect3];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Proiecte" element={<Proiecte projects={projects} />} />
+        <Route
+          path="/Proiecte/:proiect"
+          element={<Proiect projects={projects} />}
+        />
+      </Routes>
     </div>
   );
 }
