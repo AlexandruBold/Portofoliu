@@ -1,3 +1,4 @@
+import portofoliu from "./images/portofoliu.png";
 import calculator from "./images/calculator.png";
 import Proiect from "./Proiect";
 import magazin from "./images/magazin.png";
@@ -45,6 +46,13 @@ function App() {
     repository: "https://github.com/AlexandruBold/calculator",
   };
 
+  let proiect4 = {
+    nume: "Portofoliu",
+    imagine: portofoliu,
+    tecnologii: ["React", "React-Router", ", ", ", ", "Html", ", ", "Css"],
+    pages: "https://alexandrubold.github.io/Portofoliu/",
+    repository: "https://github.com/AlexandruBold/Portofoliu",
+  };
   let projects = [proiect1, proiect2, proiect3];
 
   return (

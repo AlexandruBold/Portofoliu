@@ -18,10 +18,15 @@ export default function Proiect(props) {
           <p>Tecnologii: {tecnologii}</p>
           <p>
             Git Hub Pages:
-            <a href={pages}>{pages}</a>
+            <a target="_blank" href={pages}>
+              {pages}
+            </a>
           </p>
           <p>
-            Git Hub Repository: <a href={repository}>{repository}</a>{" "}
+            Git Hub Repository:
+            <a target="_blank" href={repository}>
+              {repository}
+            </a>
           </p>
         </div>
       </div>
